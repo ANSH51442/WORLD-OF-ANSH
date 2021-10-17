@@ -1,0 +1,326 @@
+<HTML>
+        <HEAD>
+          <style>
+
+          .button {
+            display: inline-block;
+            padding: 5px 20px;
+            font-size: 15px;
+            cursor: pointer;
+            text-transform: full-width;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            margin: 5px ;
+            color: #fff;
+            background-color: black;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px blue;
+            transition: all 0.5s;
+          }
+
+          .button:hover {background-color: black}
+
+          .button:active {
+            background-color: non;
+            box-shadow: 0 5px blue;
+            transform: translateY(4px);
+          }
+          * {
+            box-sizing: border-box;
+          }
+           body{
+            font-family: Arial;
+            padding: 10px;
+            background: #ddd;
+          }
+
+          /* Header/Blog Title */
+          .header {
+            padding: 30px;
+            text-align: center;
+            background: black;
+          }
+
+          .header h1 {
+            font-size: 50px;
+            color: blue ;
+            text-shadow: 0 5px white ;
+          }
+
+          /* Create three unequal columns that floats next to each other */
+          /* Left column */
+          .leftcolumn {
+            float: left;
+            background-color: #ddd;
+            width: 75%;
+            padding: 20px;
+          }
+
+          /* Right column */
+          .rightcolumn {
+            float: left;
+            width: 25%;
+            background-color: #ddd;
+            padding-left: 10px;
+          }
+
+          /* Add a card effect for articles */
+          .card {
+            background-color: white;
+            padding: 10px;
+            margin-top: 20px;
+          }
+
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+
+          /* Footer */
+          .footer {
+            padding: 10px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+            text-shadow: 0 3px red ;
+            text-transform: full-width;
+          }
+
+          /* Responsive layout - when the screen is less than 1000px wide, make the two columns stack on top of each other instead of next to each other */
+          @media screen and (max-width: 1000px) {
+            .leftcolumn, .rightcolumn {
+              width: 100%;
+              padding: 0;
+            }
+          }
+
+          /* Responsive layout - when the screen is less than 700px wide, make the navigation links stack on top of each other instead of next to each other */
+          @media screen and (max-width: 700px) {
+            .topnav a {
+              float: none;
+              width: 100%;
+            }
+
+          </style>
+          <style>
+          .button2 {
+            display: inline-block;
+            border-radius: 20px;
+            background-color: black;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 28px;
+            padding: 20px;
+            width: 200px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            cursor: pointer;
+            text-transform: full-width;
+            text-align: center;
+            text-decoration: none;
+            outline: inherit;
+            color: blue;
+            border: none;
+            box-shadow: 0 9px blue;
+          }
+          .button2:hover {background-color: gray}
+
+          .button2:active {
+            background-color: non;
+            box-shadow:  0 4px blue;
+            transform: translateY(4px);
+          }
+          .button2 span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+          }
+
+          .button2 span:after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+          }
+
+          .button2:hover span {
+            padding-right: 40px;
+          }
+
+          .button2:hover span:after {
+            opacity: 1;
+            right: 0;
+          }
+          </style>
+        <style>
+        .header2 {
+          padding: 0px;
+          text-align: left;
+          background:#;
+        }
+        .header2 h2{
+            color: black;
+         }
+            </style>
+            <style>
+            .dropbtn {
+              background-color:white;
+              color: black;
+              padding: 10px;
+              font-size: 16px;
+              border: none;
+              cursor: pointer;
+            }
+
+            .dropdown {
+              position: static;
+              display: inline-block;
+            }
+
+            .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color: #f9f9f9;
+              min-width: 50px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+            .dropdown-content a {
+              color: black;
+              padding: 12px 16px;
+              text-decoration: none;
+              display: block;
+            }
+
+            .dropdown-content a:hover {background-color: #ddd ;
+            }
+
+            .dropdown:hover .dropdown-content {
+              display: block;
+            }
+
+            .dropdown:hover .dropbtn {
+              background-color: #ddd;
+            }
+
+            </style>
+     <TITLE>
+     </TITLE>
+       </HEAD>
+   <BODY>
+   <div  class="header">
+     <marquee direction="left" behavior="article" truespeed="1" scrolldelay="30">
+     <h1>WORLD OF ANSH</h1></marquee>
+  </div>
+   <br>
+   <a href="file:///C:/Users/pradeep/Documents/WORLD%20OF%20ANSH/Real.html">
+     <button class="button">
+     <font color="blue">HOME</font></button></a>
+    <a href="file:///C:/Users/pradeep/Documents/WORLD%20OF%20ANSH/Ansh-about.html">
+      <button class="button">
+      <font color="blue">ABOUT</font></button></a>
+        <a href="https://www.youtube.com/channel/UC6HmyBNV-IUrGpXpJDG8pPA">
+          <table border="7" style="float:right" bgcolor="red">
+      <tr >
+        <td bgcolor="red">
+        <font color="white" size="3" >
+          SUBSCRIBR</FONT>
+        </td>
+      </tr>
+    </table></a>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Videos of the games </h2>
+          <h5>This shite is based on the youtube channel . The videos which are present in the chanel and this shite are of the given games or topics .
+          If you want to download the games please clisk on the icon or the picture of that game . </h5>
+           <a href="">
+           <img width="250" height="250" src="C:\Users\pradeep\Pictures\COC\5dcf64ebd44ba57f29414ca4.jpg"></a>
+           <a href="">
+           <img width="250" height="250" src="C:\Users\pradeep\Pictures\Mech Arena\Backgwound - Copy.png"></a>
+          <p>The above icons shown are the topic of the video that are present in this shite .. </p>
+
+        </div>
+
+         <div class="card">
+           <div class="header2"><h2>CLASH OF CLAN </h2></div>
+            </div>
+             <div class="card">
+           <a href="">
+           <img height="150" width="200" src="C:\Users\pradeep\Pictures\COC\Rune of magic.png"></a>
+           <a href="">
+           <img height="150" width="200" src="C:\Users\pradeep\Pictures\COC\download2.jpg "></a>
+           <a href="">
+           <img height="150" width="200" src="C:\Users\pradeep\Pictures\COC\download (5)456dfh.jpg"></a>
+           <a href="">
+           <img height="150" width="200" src="C:\Users\pradeep\Pictures\COC\download3.jpg"></a>
+           <a href="">
+           <img height="150" width="200" src="C:\Users\pradeep\Pictures\COC\download (5)456 copy.jpg"></a>
+           <a href="">
+           <img height="150" width="200" src="C:\Users\pradeep\Pictures\COC\gftu089r.jpg"></a>
+           <a href="">
+           <img height="150" width="200" src="C:\Users\pradeep\Pictures\COC\omg-i-need-a-base.jpg"></a>
+           <a href="">
+           <img height="150" width="200" src="C:\Users\pradeep\Pictures\COC\download (5)456 475copy.jpg"></a>
+           <br>
+           <div class="dropdown">
+           <a href="">
+             <button class="dropbtn"> <u>More</u> </button></a>
+           </div>
+
+           </div>
+
+        <div class="card">
+          <h2>MECH ARENA </h2>
+          </div>
+          <div class="card">
+          <a href="">
+          <img height="150" width="200" src="C:\Users\pradeep\Pictures\Mech Arena\ice_screenshot_20210804-171727.png"></a>
+          <a href="">
+          <img height="150" width="200" src="C:\Users\pradeep\Pictures\Mech Arena\ice_screenshot_20210908-132555.png"></a>
+          <a href="">
+          <img height="150" width="200" src="C:\Users\pradeep\Pictures\Mech ARENA\images (5).jpg"></a>
+          <a href="">
+          <img height="150" width="200" src="C:\Users\pradeep\Pictures\Mech Arena\ice_screenshot_20210804-fhhyoik.png"></a>
+          <a href="">
+          <img height="150" width="200" src="C:\Users\pradeep\Pictures\Mech Arena\ice_screenshot_20210908-134411.png"></a>
+          <a href="">
+          <img height="150" width="200" src="C:\Users\pradeep\Pictures\Mech Arena\images (2).jpg"></a>
+          <br>
+          <div class="dropdown">
+            <a href="">
+            <button class="dropbtn"> <u>More</u> </button></a>
+            </div>
+          </div>
+        </div>
+      <br>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>Some More Videos</h2>
+          <p> There are some more videos , I hope you would like it . </p>
+        </div>
+        <div class="card">
+          <h2>You can also visit the youtube channel for more videos </h2>
+            <a href="https://www.youtube.com/channel/UC6HmyBNV-IUrGpXpJDG8pPA">
+          <button class="button2" style="vertical-align:middle"><span>GO</span></button>
+           </a>
+           <p>click the given button to see more videos. You will directly connect to my youtube channel , so just go and subscribe the channel . </p>
+        </div>
+        </div>
+
+        <div class="footer">
+      <marquee  direction="left" scrolldelay="50"><font size="15">THANK__YOU__FOR__VISITING </font>
+      </marquee>
+    </div>
+    </BODY>
+  </HTML>
